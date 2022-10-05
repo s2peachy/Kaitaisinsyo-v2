@@ -13,7 +13,7 @@ INSERT INTO m_user(
     , role
 ) VALUES
 ('system@co.jp', 'password', 'システム管理者', '2000-01-01', 21, 1, 1, 'ROLE_ADMIN')
-, ('user@co.jp', 'password', 'ユーザー1', '2000-01-01', 21, 1, 1, 'ROLE_GENERAL')
+, ('user@co.jp', 'password', 'ユーザー1', '2000-01-01', 21, 2, 2, 'ROLE_GENERAL')
 ;
 
 /*部署マスタ*/
