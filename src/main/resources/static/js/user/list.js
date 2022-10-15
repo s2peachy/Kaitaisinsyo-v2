@@ -1,13 +1,16 @@
 'use strict';
 
+
 var userData = null; //ユーザーデータ
 var table = null; //DataTablesオブジェクト
+
 
 /**画面ロード時の処理*/
 jQuery(function($) {
 	
 	//DataTablesの初期化
 	createDataTables();
+	
 	
 	/**検索ボタンを押したときの処理*/
 	$('#btn-search').click(function(event) {
